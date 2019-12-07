@@ -1,0 +1,10 @@
+[
+  {
+    "mediaType": "image",
+    "formats": ["jpg", "png", "jpeg"]
+  },
+  {
+    "mediaType": "video",
+    "formats": ["mov", "mp4", "gif", "webm"]
+  }
+]

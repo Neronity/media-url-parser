@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'media-downloader'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compileOnly 'org.projectlombok:lombok:1.18.10'
+    annotationProcessor 'org.projectlombok:lombok:1.18.10'
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.10.1'
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.7.2'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
+}
